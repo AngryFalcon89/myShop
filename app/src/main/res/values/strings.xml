@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">myShop</string>
+    <string name="get_started">Get Started</string>
+    <string name="let_s">Let\'s Choice \n<b>Your Own Style</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in_with_facebook">Login with Facebook</string>
+    <string name="log_in_with_google">Login with Google</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="signup">Signup</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_password">Create Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="congratulations_you_have_ncompleted_your_registration">Congratulations, you have \ncompleted your registration!</string>
+    <string name="done">Done</string>
+    <string name="success">Success</string>
+</resources>

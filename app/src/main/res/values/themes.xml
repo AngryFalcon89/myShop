@@ -3,7 +3,7 @@
     <style name="Base.Theme.MyShop" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">#FFFF6688</item>
-        <item name="colorAccent">#FFF9C6D1</item>
+        <item name="colorSecondary">#FFF9C6D1</item>
     </style>
 
     <style name="Theme.MyShop" parent="Base.Theme.MyShop" />

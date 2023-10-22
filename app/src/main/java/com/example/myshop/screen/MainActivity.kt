@@ -6,6 +6,9 @@ import android.os.Bundle
 import com.example.myshop.R
 import com.example.myshop.databinding.ActivityMainBinding
 import com.example.myshop.screen.auth.SignupLoginActivity
+import com.example.myshop.screen.home.HomeActivity
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     val binding by lazy{
@@ -15,8 +18,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.getStarted.setOnClickListener {
-            var intent = Intent(this@MainActivity, SignupLoginActivity::class.java)
-            startActivity(intent)
+            if(Firebase.auth.currentUser == null) {
+                startActivity(Intent(this@MainActivity, SignupLoginActivity::class.java))
+                finish()
+            }else {
+                startActivity(Intent(this@MainActivity, HomeActivity::class.java))
+                finish()
+            }
         }
     }
 }

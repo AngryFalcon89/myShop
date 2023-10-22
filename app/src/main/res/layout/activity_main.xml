@@ -36,7 +36,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -59,7 +59,6 @@
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:text="@string/let_s"
-        android:textAppearance="@style/let_s_choic"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
